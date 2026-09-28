@@ -1,6 +1,5 @@
-
 # ☀️ SolarGuard — Solar Panel Dust & Crack Checker
-
+**🔗 Live demo:** https://solarguard-raisul.streamlit.app
 A computer-vision dashboard that inspects solar panel images and instantly reports:
 
 - **Soiling level (%)** — how much dust is likely covering the panel, estimated using HSV color-space analysis
