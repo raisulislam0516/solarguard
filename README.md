@@ -1,3 +1,4 @@
+
 # ☀️ SolarGuard — Solar Panel Dust & Crack Checker
 
 A computer-vision dashboard that inspects solar panel images and instantly reports:
@@ -14,11 +15,11 @@ Built with **Python, OpenCV, Plotly, and Streamlit** — no pretrained ML model 
 
 **Dashboard home**
 
-![Dashboard home](screenshots/dashboard-home.png)
+![Dashboard home](dashboard-home.png)
 
 **Inspection result — health gauge, soiling %, crack confidence**
 
-![Inspection result](screenshots/inspection-result.png)
+![Inspection result](inspection-result.png)
 
 ## ⚙️ How It Works
 
@@ -32,39 +33,24 @@ Built with **Python, OpenCV, Plotly, and Streamlit** — no pretrained ML model 
 ## 🚀 Getting Started
 
 ```bash
-git clone <your-repo-url>
-cd SolarProject
+git clone https://github.com/raisulislam0516/solarguard.git
+cd solarguard
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
 Then open `http://localhost:8501` in your browser.
 
-## 🌐 Deploy It (for your portfolio link)
-
-The easiest way to get a live link to put on your resume/LinkedIn:
-
-1. Push this project to a public GitHub repo
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub
-3. Select the repo, set the main file to `app.py`, and deploy
-4. You'll get a free public URL like `https://your-app.streamlit.app`
-
 ## 📁 Project Structure
 
 ```
-SolarProject/
-├── app.py                 # Main Streamlit dashboard
+solarguard/
+├── app.py                  # Main Streamlit dashboard
 ├── requirements.txt        # Python dependencies
-├── screenshots/             # App screenshots (for this README)
+├── dashboard-home.png      # App screenshot
+├── inspection-result.png   # App screenshot
 └── README.md
 ```
-
-## 🛣️ Possible Improvements
-
-- Swap the classical CV heuristics for a trained YOLOv8 model for higher accuracy
-- Add thermal-camera support for hotspot detection
-- Store results in a database instead of session memory
-- Add a cost/ROI calculator for cleaning scheduling
 
 ## 📄 License
 
