@@ -1,4 +1,4 @@
-pencv-python-headless
+opencv-python-headless
 numpy
 streamlit
 fpdf2
